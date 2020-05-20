@@ -1,0 +1,21 @@
+.Footer__root {
+  height: 100px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.Footer__root > * {
+  margin-right: 30px;
+}
+
+.Footer__root > a {
+  border-bottom: none;
+}
+
+.Footer__root > a > img {
+  width: 30px;
+  height: 30px;
+}

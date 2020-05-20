@@ -1,0 +1,7 @@
+'use strict';
+
+const ANIMALS_TYPES = {
+  GET: 'ANIMALS_GET',
+  GET_SUCCESS: 'ANIMALS_GET_SUCCESS',
+	GET_ERROR: 'ANIMALS_GET_ERROR',
+};

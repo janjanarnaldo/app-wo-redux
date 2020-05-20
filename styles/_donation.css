@@ -1,0 +1,9 @@
+.UserDonations__root {
+  flex: 1;
+  font-size: 12px;
+  column-count: 2;  
+}
+
+.UserDonations__root > ul {
+  margin: 0 0 5px;
+}

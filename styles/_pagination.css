@@ -1,0 +1,9 @@
+.Pagination__root {
+  text-align: right;
+}
+
+.Pagination__root > a {
+  text-decoration: underline;
+  color: cornflowerblue;
+  margin: 0 5px;
+}

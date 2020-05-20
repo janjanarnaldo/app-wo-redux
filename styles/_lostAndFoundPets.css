@@ -1,0 +1,28 @@
+.LostAndFoundPets__root {
+  display: block;
+}
+
+.LostAndFoundPets__cards {
+  padding: 30px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+
+.LostAndFoundPets__card {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1039px) {
+  .LostAndFoundPets__root {
+    text-align: center;
+  }
+
+  .LostAndFoundPets__options {
+    justify-content: center;
+  }
+
+  .LostAndFoundPets__cards {
+    justify-content: center;
+  }
+}

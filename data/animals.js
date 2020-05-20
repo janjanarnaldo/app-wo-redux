@@ -1,0 +1,118 @@
+'use strict';
+
+const ANIMALS = [
+  {
+    id: 600,
+    type: 1,
+    name: 'Riscas',
+    dataPerdido: {
+      year: 2019,
+      month: 12,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'Faro',
+  },
+  {
+    id: 602,
+    type: 2,
+    name: 'Bruise',
+    dataPerdido: {
+      year: 2020,
+      month: 1,
+      day: 2,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'Test City',
+  },
+  {
+    id: 603,
+    type: 3,
+    name: 'Cowww',
+    dataPerdido: {
+      year: 2019,
+      month: 10,
+      day: 1,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'Syudad',
+  },
+  {
+    id: 650,
+    type: 1,
+    name: 'Chuchu',
+    dataPerdido: {
+      year: 2018,
+      month: 12,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'Fora',
+  },
+  {
+    id: 651,
+    type: 2,
+    name: 'Cheche',
+    dataPerdido: {
+      year: 2019,
+      month: 6,
+      day: 6,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'Esperanza',
+  },
+  {
+    id: 652,
+    type: 3,
+    name: 'Moooo',
+    dataPerdido: {
+      year: 2019,
+      month: 2,
+      day: 30,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'Syudad',
+  },
+  {
+    id: 653,
+    type: 1,
+    name: 'Catthy',
+    dataPerdido: {
+      year: 2029,
+      month: 1,
+      day: 5,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'MingCity',
+  },
+  {
+    id: 654,
+    type: 2,
+    name: 'Doggo',
+    dataPerdido: {
+      year: 2019,
+      month: 8,
+      day: 27,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'AwAw',
+  },
+  {
+    id: 655,
+    type: 3,
+    name: 'Toktoraok',
+    dataPerdido: {
+      year: 2019,
+      month: 12,
+    },
+    owner: 'Arnaldo',
+    ownerMobile: '+639330886502',
+    locality: 'Christmas',
+  },
+];

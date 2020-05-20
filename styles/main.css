@@ -1,0 +1,126 @@
+@font-face { font-family: Lato; src: url('../fonts/Lato/Lato-Regular.ttf'); } 
+@font-face { font-family: Lato; font-weight: bold; src: url('../fonts/Lato/Lato-Bold.ttf');}
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+body {
+  margin: auto;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  line-height: 3;
+  border: solid 2px grey;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 0 15px;
+  height: 40px;
+}
+
+select {
+  line-height: 3;
+  border: solid 2px grey;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 0 15px;
+  height: 44px;
+}
+
+button {
+  border-style: unset;
+  font-size: 25px;
+  min-width: 130px;
+  padding: 0 10px;
+  background-color: #6495ed;
+  color: white;
+  border-radius: 5px;
+  height: 44px;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+button.disabled {
+  background-color: #808080;
+  pointer-events: none;
+  opacity: .5;
+}
+
+button.btn-style-1 {
+  width: 130px;
+  font-size: 20px;
+  border-style: solid;
+}
+
+button.btn-style-2 {
+  border-style: unset;
+  font-size: 35px;
+  min-width: 130px;
+  padding: 10px 10px;
+  height: auto;
+}
+
+button.btn-style-3 {
+  background: brown;
+}
+
+body > div:first-of-type {
+  padding: 200px 30px 50px;
+}
+
+h3, h4, h5, h6 {
+  margin: 15px 0;
+}
+
+.field-container {
+  margin-right: 20px;
+}
+
+.field-container > span {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.field-container > input,
+.field-container > select {
+  width: 200px;
+}
+
+.vbox {
+  display: flex;
+  /*Align children vetically*/
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.hbox {
+  display: flex;
+  /*Align children horizontally*/
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.flex {
+  flex: 1;
+}
+
+.cross-center {
+  align-items: center;
+  align-content: center;
+}
+
+.error {
+  color: red
+}
+
+.width-full {
+  width: 100%;
+}
